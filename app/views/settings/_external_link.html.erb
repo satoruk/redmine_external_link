@@ -1,0 +1,18 @@
+<p>
+<table>
+<tr>
+  <td><%= l(:target)%></td>
+  <td>
+    <%= text_field_tag('settings[target]', @settings['target'])%>
+    <em class="info"><%= l(:target_explain) %></em>
+  </td>
+</tr>
+<tr>
+  <td><%= l(:one_cushion_link)%></td>
+  <td>
+    <%= text_field_tag('settings[one_cushion_link]', @settings['one_cushion_link'], :size => 80)%>
+    <em class="info"><%= l(:one_cushion_link_explain) %></em>
+  </td>
+</tr>
+</table>
+</p>

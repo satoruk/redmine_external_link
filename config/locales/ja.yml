@@ -1,0 +1,6 @@
+# Japanese strings go here for Rails i18n
+ja:
+  target: "ターゲット属性"
+  one_cushion_link: "ワンクッションリンク"
+  one_cushion_link_explain: '${URL}'
+

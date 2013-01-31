@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  target: "target attribute"
+  target_explain: <a href="http://www.w3schools.com/tags/att_a_target.asp" target="_blank">HTML a target Attribute</a>
+  one_cushion_link: "one cushion link"
+  one_cushion_link_explain: '${URL}'
+
