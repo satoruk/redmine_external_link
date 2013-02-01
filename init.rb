@@ -2,6 +2,7 @@
 require 'external_link_plugin'
 
 Rails.configuration.to_prepare do
+  RedCloth3.send(:include, ExternalLinkPlugin::Patches::RedCloth3Patch)
   Redmine::WikiFormatting::Textile::Formatter.send(:include, ExternalLinkPlugin::Patches::WikiFormatting::Textile::FormatterPatch)
 end
 
