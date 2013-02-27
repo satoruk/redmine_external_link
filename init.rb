@@ -17,7 +17,7 @@ Redmine::Plugin.register :external_link do
 
   settings :default => {
     'target' => '_blank',
-    'one_cushion_link' => 'http://ref.boobie.jp/?lcu=${URL}',
+    'one_cushion_link' => 'http://webutil.catlet.com/redirect/${URL}',
   }, :partial => 'settings/external_link'
 
 end
